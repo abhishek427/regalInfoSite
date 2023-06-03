@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/regalInfoSite/static/css/main.b222f42f.chunk.css",
-    "main.js": "/regalInfoSite/static/js/main.2c572bf0.chunk.js",
-    "main.js.map": "/regalInfoSite/static/js/main.2c572bf0.chunk.js.map",
+    "main.js": "/regalInfoSite/static/js/main.24087304.chunk.js",
+    "main.js.map": "/regalInfoSite/static/js/main.24087304.chunk.js.map",
     "runtime-main.js": "/regalInfoSite/static/js/runtime-main.47ccd97d.js",
     "runtime-main.js.map": "/regalInfoSite/static/js/runtime-main.47ccd97d.js.map",
     "static/js/2.c1c420ae.chunk.js": "/regalInfoSite/static/js/2.c1c420ae.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.47ccd97d.js",
     "static/js/2.c1c420ae.chunk.js",
     "static/css/main.b222f42f.chunk.css",
-    "static/js/main.2c572bf0.chunk.js"
+    "static/js/main.24087304.chunk.js"
   ]
 }
