@@ -22,17 +22,17 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        <Fade duration={1000} distance="40px">
-          <div className="row">
-            <div className="twelve columns collapsed">
-              <h1>Check Out Some of Our Styles.</h1>
+        {/* <Fade duration={1000} distance="40px"> */}
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <h1>Check Out Some of Our Styles.</h1>
 
-              <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
-              </div>
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              {projects}
             </div>
           </div>
-        </Fade>
+        </div>
+        {/* </Fade> */}
       </section>
     );
   }
