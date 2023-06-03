@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import "../App.css";
+import Logo from "../Components/regalLogo.png";
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
@@ -60,7 +61,12 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                <img src={Logo} className="App-logo" alt="logo" style={{ width: "160px" }} />
+                <h1 className="responsive-headline" style={{ margin: "0 0 0 40px" }}>
+                  {name}
+                </h1>
+              </div>
             </Fade>
             <Fade bottom duration={1200}>
               <h3 className="tag-line">{tagLine}</h3>
