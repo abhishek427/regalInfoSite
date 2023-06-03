@@ -62,8 +62,8 @@ class Header extends Component {
           <div className="banner-text">
             <Fade bottom>
               <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                <img src={Logo} className="App-logo" alt="logo" style={{ width: "160px" }} />
-                <h1 className="responsive-headline" style={{ margin: "0 0 0 40px" }}>
+                <img src={Logo} className="App-logo" alt="logo" style={{ width: "14%" }} />
+                <h1 className="responsive-headline" style={{ margin: "0 0 0 5%" }}>
                   {name}
                 </h1>
               </div>
